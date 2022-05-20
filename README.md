@@ -1,5 +1,9 @@
 # Gravitee Risk Assessment Api
 
+ifdef::env-github[]
+image:https://img.shields.io/badge/semantic--release-conventional%20commits-e10079?logo=semantic-release["Releases", link="https://github.com/gravitee-io/gravitee-risk-assessment-api/releases"]
+endif::[]
+
 ## Introduction
 
 This gravitee library contains all the necessary settings to communicate with the Gravitee Risk Assessment Service.
