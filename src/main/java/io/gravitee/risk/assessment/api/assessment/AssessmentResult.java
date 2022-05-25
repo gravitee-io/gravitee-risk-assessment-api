@@ -23,7 +23,7 @@ package io.gravitee.risk.assessment.api.assessment;
 public class AssessmentResult<T> {
 
     private T result;
-    private Assessment assessement;
+    private Assessment assessment;
 
     public AssessmentResult() {}
 
@@ -32,7 +32,7 @@ public class AssessmentResult<T> {
     }
 
     public Assessment getAssessment() {
-        return assessement;
+        return assessment;
     }
 
     public AssessmentResult<T> setResult(T result) {
@@ -40,8 +40,8 @@ public class AssessmentResult<T> {
         return this;
     }
 
-    public AssessmentResult<T> setAssessment(Assessment assessement) {
-        this.assessement = assessement;
+    public AssessmentResult<T> setAssessment(Assessment assessment) {
+        this.assessment = assessment;
         return this;
     }
 }
