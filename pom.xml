@@ -28,7 +28,7 @@
 
   <groupId>io.gravitee.risk.assessment.api</groupId>
   <artifactId>gravitee-risk-assessment-api</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <name>Gravitee Risk Assessment - Api</name>
   <packaging>jar</packaging>
 
