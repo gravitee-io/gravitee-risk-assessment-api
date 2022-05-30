@@ -1,0 +1,33 @@
+# Gravitee Risk Assessment Api
+
+ifdef::env-github[]
+image:https://img.shields.io/badge/License-Apache%202.0-blue.svg["License", link="https://github.com/gravitee-io/gravitee-risk-assessment-api/blob/master/LICENSE.txt"]
+image:https://img.shields.io/badge/semantic--release-conventional%20commits-e10079?logo=semantic-release["Releases", link="https://github.com/gravitee-io/gravitee-risk-assessment-api/releases"]
+image:https://circleci.com/gh/gravitee-io/gravitee-risk-assessment-api.svg?style=svg["CircleCI", link="https://circleci.com/gh/gravitee-io/gravitee-risk-assessment-api"]
+image:https://f.hubspotusercontent40.net/hubfs/7600448/gravitee-github-button.jpg["Join the community forum", link="https://community.gravitee.io?utm_source=readme", height=20]
+endif::[]
+
+## Introduction
+
+This gravitee library contains all the necessary settings to communicate with the Gravitee Risk Assessment Service.
+
+It is currently composed of **gravitee-risk-assessment-api**,
+the common api to implement in your project which contains:
+
+  - The data model to use for settings
+  - The data model to use for the evaluation data
+
+## Installation
+
+```bash
+$ mvn clean install
+```
+You can then add the dependency in your pom.xml file:
+
+```xml
+<dependency>
+  <groupId>io.gravitee.risk.assessment.api</groupId>
+  <artifactId>gravitee-risk-assessment-api</artifactId>
+  <version>${version}</version>
+</dependency>
+```
