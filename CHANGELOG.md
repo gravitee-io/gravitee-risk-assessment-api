@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/gravitee-io/gravitee-risk-assessment-api/compare/1.0.1...2.0.0) (2023-03-20)
+
+
+### chore
+
+* bump dependencies ([30e97ba](https://github.com/gravitee-io/gravitee-risk-assessment-api/commit/30e97ba70fc4f6cbf6bf50fd1780cd38c3ba7f77))
+
+
+### BREAKING CHANGES
+
+* upgrade parent to 21.0.0
+
 # [2.0.0-alpha.1](https://github.com/gravitee-io/gravitee-risk-assessment-api/compare/1.0.1...2.0.0-alpha.1) (2023-02-24)
 
 
