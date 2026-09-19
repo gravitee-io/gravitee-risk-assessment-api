@@ -31,3 +31,15 @@ You can then add the dependency in your pom.xml file:
   <version>${version}</version>
 </dependency>
 ```
+
+== Compatibility matrix
+
+|===
+| Plugin version | AM               | Java version
+
+| 3.x            | 4.7.x to latest  | 21
+| 2.x            | 3.21.x to latest | 11
+| 1.x            | 3.18.x to 3.20.x | 11
+|===
+
+The *Java version* column is the bytecode level of the latest release of each line, which sets the minimum runtime able to load the artifact.
