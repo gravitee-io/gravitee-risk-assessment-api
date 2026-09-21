@@ -1,3 +1,16 @@
+# [3.0.0](https://github.com/gravitee-io/gravitee-risk-assessment-api/compare/2.0.0...3.0.0) (2026-09-21)
+
+
+* chore(deps)!: move to the gravitee orb 5 and parent 24 ([b20d2f0](https://github.com/gravitee-io/gravitee-risk-assessment-api/commit/b20d2f0b147585b47c89570f6be9e655232185aa))
+
+
+### BREAKING CHANGES
+
+* the artifact is now compiled for Java 21, up from Java 11, and
+requires a Java 21 runtime or later.
+
+https://gravitee.atlassian.net/browse/BX-403
+
 # [2.0.0](https://github.com/gravitee-io/gravitee-risk-assessment-api/compare/1.0.1...2.0.0) (2023-03-20)
 
 
